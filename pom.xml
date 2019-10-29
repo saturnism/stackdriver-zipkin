@@ -385,12 +385,14 @@
           <excludes>
             <exclude>.travis.yml</exclude>
             <exclude>.gitignore</exclude>
+            <exclude>.dockerignore</exclude>
             <exclude>.mvn/**</exclude>
             <exclude>mvnw*</exclude>
             <exclude>etc/header.txt</exclude>
             <exclude>**/.idea/**</exclude>
             <exclude>LICENSE</exclude>
             <exclude>**/*.md</exclude>
+            <exclude>travis/*.enc</exclude>
             <!-- temporary patch until Armera 0.91 -->
             <exclude>**/UnaryGrpcClient.java</exclude>
             <exclude>src/test/resources/**</exclude>
