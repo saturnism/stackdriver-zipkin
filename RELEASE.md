@@ -96,7 +96,7 @@ TODO: update and move this to docker-compose.test.yml
 https://github.com/openzipkin/zipkin-gcp/issues/182
 
 A Google Cloud Platform service account key file is used for integration tests against a GCP project and
-the Stackdriver Trace service. The service account was generated this way:
+the Cloud Trace service. The service account was generated this way:
 
 ```bash
 $ export PROJECT_ID=zipkin-gcp-ci
